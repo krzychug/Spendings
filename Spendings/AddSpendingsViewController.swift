@@ -12,12 +12,18 @@ class AddSpendingsViewController: UIViewController {
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var categoryLabel: UILabel!
     
+    var price = 0.00
+    var category = ""
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
+        
+        textField.attributedPlaceholder = NSAttributedString(string: "0", attributes: [NSAttributedString.Key.foregroundColor: UIColor.black])
+        
     }
     
     @IBAction func cancelButton(_ sender: UIButton) {
@@ -49,6 +55,16 @@ class AddSpendingsViewController: UIViewController {
             return
         }
     }
+    
+    
+    @IBAction func readyButtonPressed(_ sender: UIButton) {
+        price = Double(textField.text!)!
+        category = (categoryLabel.text)!
+        print("Dodano kwotę \(price)")
+        print("Wybrana kategoria: \(category)")
+        dismiss(animated: true, completion: nil)
+    }
+
     
     @objc func dismissKeyboard() {
         view.endEditing(true)

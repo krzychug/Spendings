@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		430C9CC3298AA71900DEF2E8 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C9CC2298AA71800DEF2E8 /* Transaction.swift */; };
+		430C9CC5298AA88A00DEF2E8 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C9CC4298AA88A00DEF2E8 /* TransactionTableViewCell.swift */; };
 		43B790E0297E9724004E8A7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B790DF297E9724004E8A7E /* AppDelegate.swift */; };
 		43B790E2297E9724004E8A7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B790E1297E9724004E8A7E /* SceneDelegate.swift */; };
 		43B790E7297E9724004E8A7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B790E5297E9724004E8A7E /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		430C9CC2298AA71800DEF2E8 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		430C9CC4298AA88A00DEF2E8 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
 		43B790DC297E9724004E8A7E /* Spendings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spendings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B790DF297E9724004E8A7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43B790E1297E9724004E8A7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +66,9 @@
 				43B790E1297E9724004E8A7E /* SceneDelegate.swift */,
 				43B790F3297EA4C7004E8A7E /* MainViewController.swift */,
 				43B790F5297EA4E0004E8A7E /* AddSpendingsViewController.swift */,
+				430C9CC2298AA71800DEF2E8 /* Transaction.swift */,
 				43B790E5297E9724004E8A7E /* Main.storyboard */,
+				430C9CC4298AA88A00DEF2E8 /* TransactionTableViewCell.swift */,
 				43B790E8297E9728004E8A7E /* Assets.xcassets */,
 				43B790EA297E9728004E8A7E /* LaunchScreen.storyboard */,
 				43B790ED297E9728004E8A7E /* Info.plist */,
@@ -145,6 +151,8 @@
 				43B790F4297EA4C7004E8A7E /* MainViewController.swift in Sources */,
 				43B790E0297E9724004E8A7E /* AppDelegate.swift in Sources */,
 				43B790E2297E9724004E8A7E /* SceneDelegate.swift in Sources */,
+				430C9CC5298AA88A00DEF2E8 /* TransactionTableViewCell.swift in Sources */,
+				430C9CC3298AA71900DEF2E8 /* Transaction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
